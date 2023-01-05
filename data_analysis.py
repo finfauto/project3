@@ -23,7 +23,7 @@ def transform_driver_race_laps(driver_race_laps: [{}]) -> [{}]:
 def get_lap_average_speed(lap_number: int, driver_race_laps: [{}]) -> float:
     # The python version used in GitHub does not like the real return type -> Any | None:
     """
-    This function received a lap number and a list of items. Each item represents a lap with the following information:
+    This function receives a lap number and a list of items. Each item represents a lap with the following information:
     - lap_number: int
     - average_speed: float.
 
